@@ -28,16 +28,23 @@ header{
 }
 
 .logo{
- width: 40%px;
+ width: 80px;
  height: 80px;
+ 
 }
+
+.logo :hover{
+    width:85px;
+}
+
 
 .navbar,
 .navbar-list{
     display: flex;
     align-items: center;
-    gap:1px;
+    gap:3px;
     justify-content: center;
+    
 }
 
 .navbar-list a{
@@ -47,16 +54,15 @@ header{
     text-transform: uppercase;
     font-weight: 1000;
     word-spacing: 4px;
+    cursor: pointer;
 }
 
 .navbar-list a:hover{
     font-size: 27px;
-    color:var(--azulagua);
-    letter-spacing: 5px;
+    color:crimson;
+    
     
 }
-
-/* DISEÑO DE LAS CARD */
 
 .container,
 .card{
