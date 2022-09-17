@@ -114,24 +114,29 @@ header{
 
 @media only screen and (max-width: 768px){
 
-    .navbar-list{
-        gap:2px;
-        word-spacing: 2px;
-    }
+  
+   
+
+   
     .navbar-list a{
-        font-size: 150%;
+        font-size: 80%;
     }
 
     .logo{
-        width: 60px;
-        height: 60px;
+        width:10vw;
+        height:10vw;
     }
     
     .card img{
         width: 30%;
     }
     
+    .card{
+       margin-top: 10vh;
+    }
+
     .card p{
+        
         text-align: center;
         color:crimson;
         font-size: 1rem;
