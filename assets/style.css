@@ -25,6 +25,7 @@ header{
     height: 70px;
     padding:0px 25px 0px 25px;
     border-bottom: var(--azulagua) 1px solid;
+    top:0;
 }
 
 .logo{
@@ -50,12 +51,13 @@ header{
 .navbar-list a{
     color:var(--azulclaro);
     padding:10px;
-    font-size: 25px;
+    font-size: 156.25%;
     text-transform: uppercase;
     font-weight: 1000;
-    word-spacing: 4px;
+    word-spacing: 4%;
     cursor: pointer;
 }
+
 
 .navbar-list a:hover{
     font-size: 27px;
@@ -76,6 +78,7 @@ header{
 .card{
     background-color: #0f7c8c;
    margin:15% 10% 15% 10%;
+   padding:3rem;
     justify-content: space-around;
     border-radius: 1rem;
     box-shadow: 2px 2px 15px 15px #104b6a ;
@@ -85,17 +88,15 @@ header{
 
 .card img{
     width: 30%;
-    
-    
 }
+
 .card p{
     color:crimson;
     font-size: 40px;
     letter-spacing: 4px;
+    text-align: center;
 
 }
-
-
 
 
 
@@ -109,4 +110,38 @@ header{
 --azulmasclaro:#04637d;
 --azulclaro:#0f7c8c;
 --azulagua:#2e9496;
+}
+
+@media only screen and (max-width: 768px){
+
+    .navbar-list{
+        gap:2px;
+        word-spacing: 2px;
+    }
+    .navbar-list a{
+        font-size: 150%;
+    }
+
+    .logo{
+        width: 60px;
+        height: 60px;
+    }
+    
+    .card img{
+        width: 30%;
+    }
+    
+    .card p{
+        text-align: center;
+        color:crimson;
+        font-size: 1rem;
+        letter-spacing: 4px;
+    
+    }
+
+
+
+
+
+
 }
