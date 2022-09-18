@@ -29,14 +29,12 @@ header{
 }
 
 .logo{
- width: 80px;
- height: 80px;
+ width: 4rem;
+ height: 4rem;
  
 }
 
-.logo :hover{
-    width:85px;
-}
+
 
 
 .navbar,
@@ -51,7 +49,7 @@ header{
 .navbar-list a{
     color:var(--azulclaro);
     padding:10px;
-    font-size: 156.25%;
+    font-size: 80%;
     text-transform: uppercase;
     font-weight: 1000;
     word-spacing: 4%;
@@ -60,7 +58,7 @@ header{
 
 
 .navbar-list a:hover{
-    font-size: 27px;
+    font-size: 86%;
     color:crimson;
     
     
@@ -92,7 +90,7 @@ header{
 
 .card p{
     color:crimson;
-    font-size: 40px;
+    font-size: 2.5rem;
     letter-spacing: 4px;
     text-align: center;
 
@@ -119,7 +117,7 @@ header{
 
    
     .navbar-list a{
-        font-size: 80%;
+        font-size: 40%;
     }
 
     .logo{
@@ -132,7 +130,7 @@ header{
     }
     
     .card{
-       margin-top: 10vh;
+       margin-top: 30%;
     }
 
     .card p{
@@ -141,9 +139,21 @@ header{
         color:crimson;
         font-size: 1rem;
         letter-spacing: 4px;
+        justify-content: center;
     
     }
 
+    .navbar-list a:hover{
+        font-size: 0.5rem;
+        color:crimson;
+        
+    }
+    
+    header{
+        padding:5px;
+        gap:1rem;
+        justify-content: center;
+    }
 
 
 
