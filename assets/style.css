@@ -139,14 +139,16 @@ main{
 }
 
 @media only screen and (max-width: 768px){
-    
+
     .hero{
         margin:2%;
+        width: 100%;
     
     }
 
     .hero-info{
         width: 100%;
+        
         gap:7%;
         padding: 1%
     }
@@ -199,6 +201,7 @@ main{
 
 .botones a:hover{
     font-size: 13px;
+    color:crimson
 }
 
 
@@ -221,6 +224,7 @@ main{
 
     .botones a:hover{
         font-size:60%;
+  
     }
 }
 /* BOTONES */
@@ -282,6 +286,13 @@ main{
 
 
 @media only screen and (max-width: 768px){
+
+.info{
+    width: 80%;
+    height: 700%;
+
+}
+
 
 .info p{
     margin:3% 3% 0% 3%;
