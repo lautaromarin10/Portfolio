@@ -65,7 +65,7 @@ header{
 @media only screen and (max-width: 768px){
 
     .navbar-list a{
-        font-size: 55%;
+        font-size: 67%;
     }
     .logo{
         width:10vw;
@@ -73,7 +73,7 @@ header{
     }
 
     .navbar-list a:hover{
-        font-size: 0.5rem;
+        font-size: 70%;
         color:crimson;
         
     }
@@ -141,27 +141,23 @@ main{
 @media only screen and (max-width: 768px){
     
     .hero{
-        margin:10% ;
-        padding:10%;
-        gap:10%
-        align-items: center;
+        margin:2%;
+    
     }
 
     .hero-info{
-        gap:10%;
-        padding:5%
+        width: 100%;
+        gap:7%;
+        padding: 1%
     }
 
     .hero-info h1{
-        font-size:130%;
+       font-size: 170%;
+       
     }
 
     .hero-info p{
-        font-size:120%;
-        margin-bottom: 5%;
-        text-align: center;
-        
-   
+        font-size:130%;
     }
 
     }
@@ -174,7 +170,7 @@ main{
 .botones {
     display: flex;
     justify-content: center;
-    gap:10%;
+    gap:5%;
     text-transform: uppercase;
     
 }
@@ -209,12 +205,12 @@ main{
 @media only screen and (max-width: 768px){
 
     .botones{
-        gap:25%;
+        gap:10%;
     }
 
     .botones li{ 
         height: 100%;   
-        padding:5%;
+        /* padding:3%; */
        
     }
 
@@ -232,7 +228,7 @@ main{
 /* HERO IMG */
 .hero-img{
     display: flex;
-   width: 50%;
+   width: 40%;
    padding: 10px;
     
 }
@@ -246,15 +242,8 @@ main{
 @media only screen and (max-width: 768px){
 
     .hero-img{
-        padding:10%
-        text-align: center;
+        display: none;
     }
-
-
-    .hero-img img{
-        width: 130%;
-    }
-
 }
 
 /* HERO IMG */
