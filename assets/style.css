@@ -48,9 +48,9 @@ header{
 .navbar-list a{
     color:var(--azulclaro);
     padding:10px;
-    font-size: 80%;
+    font-size: 100%;
     text-transform: uppercase;
-    font-weight: 1000;
+    font-weight: 200;
     word-spacing: 4%;
     cursor: pointer;
 }
