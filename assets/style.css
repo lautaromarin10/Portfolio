@@ -142,27 +142,28 @@ main{
 @media only screen and (max-width: 768px){
 
     .hero{
-        margin:20% 30% 10% 30%;
-        width: 80%;
-        padding: 6%;
+        margin: 35% 30% 35% 30%;
+        width: 100%;
+        padding: 13%;
         border:none;
+        
     
     }
 
     .hero-info{
         width: 100%;
-        
-        gap:7%;
-        padding: 1%
+        gap:10%;
+        padding: 1%;
     }
 
     .hero-info h1{
-       font-size: 170%;
+       font-size: 250%;
        
     }
 
     .hero-info p{
-        font-size:130%;
+        font-size:200%;
+        width: 100%;
     }
 
     }
@@ -175,7 +176,7 @@ main{
 .botones {
     display: flex;
     justify-content: center;
-    gap:5%;
+    gap:10%;
     text-transform: uppercase;
     
 }
@@ -297,12 +298,13 @@ main{
 .info{
     width: 80%;
     height: 700%;
-
+    margin:20% 3% 30% 3%;
+    /* display: none; */
 }
 
 
 .info p{
-    margin:3% 3% 0% 3%;
+    margin:10% 3% 2% 3%;
     font-size:80%;
     padding:2%;
 }
@@ -312,23 +314,9 @@ main{
     
 }
 
-
-
-
-
-
-
-
-
 }
 
 /* INFO */
-
-
-
-
-
-
 
 
 :root{
@@ -341,3 +329,5 @@ main{
 --azulclaro:#0f7c8c;
 --azulagua:#2e9496;
 }
+
+
