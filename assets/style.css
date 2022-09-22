@@ -65,7 +65,7 @@ header{
 @media only screen and (max-width: 768px){
 
     .navbar-list a{
-        font-size: 40%;
+        font-size: 55%;
     }
     .logo{
         width:10vw;
@@ -141,23 +141,26 @@ main{
 @media only screen and (max-width: 768px){
     
     .hero{
-        margin:10% 2% 2% 2%;
+        margin:10% ;
         padding:10%;
         gap:10%
+        align-items: center;
     }
 
     .hero-info{
-        gap:1%;
-        padding:6%
+        gap:10%;
+        padding:5%
     }
 
     .hero-info h1{
-        font-size:220%;
+        font-size:130%;
     }
 
     .hero-info p{
-        font-size:150%;
-        margin-bottom: 10%;
+        font-size:120%;
+        margin-bottom: 5%;
+        text-align: center;
+        
    
     }
 
@@ -205,18 +208,23 @@ main{
 
 @media only screen and (max-width: 768px){
 
+    .botones{
+        gap:25%;
+    }
+
     .botones li{ 
         height: 100%;   
+        padding:5%;
+       
     }
 
     .botones a{
-        font-size:80%;
-        padding:2%;
-
+        font-size:55%;
+        padding:3%;
     }
 
     .botones a:hover{
-        font-size:85%;
+        font-size:60%;
     }
 }
 /* BOTONES */
@@ -225,22 +233,28 @@ main{
 .hero-img{
     display: flex;
    width: 50%;
-   padding: 10px
+   padding: 10px;
     
 }
 
 .hero-img img{
     height: 100%;
-    width: 80%;
+    width: 100%;
     text-align: center;
 }
 
 @media only screen and (max-width: 768px){
 
-.hero-img img{
-        height: 100%;
-        width: 120%;
-}
+    .hero-img{
+        padding:10%
+        text-align: center;
+    }
+
+
+    .hero-img img{
+        width: 130%;
+    }
+
 }
 
 /* HERO IMG */
@@ -281,13 +295,13 @@ main{
 @media only screen and (max-width: 768px){
 
 .info p{
-    margin:5%;
-    font-size:120%;
+    margin:3% 3% 0% 3%;
+    font-size:80%;
     padding:2%;
 }
 
 .info h3{
-    font-size:160%;
+    font-size:90%;
     
 }
 
