@@ -10,11 +10,14 @@
         
     }    
     header{
-        padding:5px;
+        padding:20px;
         gap:3rem;
         justify-content: center;
         z-index: 1;
         border-bottom: none;
+        height: 70px;
+       width: 100%;
+       border-bottom: 1px solid #2e9496;
     }
 
         /* NAVBAR HEADER */
@@ -23,7 +26,7 @@
 
         .navbar-list{
             position: absolute;
-            top:100px;
+            top:70px;
             left:5%;
             right: 5%;
             width: 90%;
@@ -40,9 +43,15 @@
         }
 
         .navbar-list a{
-            font-size: 18px;
+            font-size: 15px;
             color: crimson;
         }
+
+        .navbar-list a:hover{
+            font-size: 17px;
+            color: crimson;
+        }
+
 
         .menu-label{
             display: flex;
@@ -69,7 +78,7 @@
     
         /* HERO */
     .hero{
-        margin: 20%;
+        margin: 10% 20% 20% 20%;
         width: 100%;
         padding: 13%;
         border:none;
