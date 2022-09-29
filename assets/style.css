@@ -55,7 +55,7 @@ header{
 
 
 .navbar-list a:hover{
-    font-size: 135%;
+    font-size: 125%;
     color:crimson;
 }
 
@@ -258,6 +258,7 @@ margin: 2%;
 
 .cards-data img{
     height: 30%;
+    filter: invert(41%) sepia(56%) saturate(554%) hue-rotate(134deg) brightness(88%) contrast(97%);
     
 }
 
@@ -278,6 +279,108 @@ margin: 2%;
 /* CARDS */
 
 /* CONTACTO */
+
+.contacto{
+    display: flex;
+    width: 100%;
+    max-width: 1250px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding:50px;
+    margin:2%;
+    /* background-color: cadetblue; */
+}
+
+.contacto-conteiner{
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto-conteiner h3{
+    color:crimson;
+    font-size: 500%;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.contacto-conteiner .titles h4,h5{
+    font-size: 2rem;
+    color: var(--azulagua)
+}
+
+.titles{
+    display: flex;
+    gap:9rem;
+    justify-content: space-between;
+    border-bottom: var(--azulclaro) 1px solid;
+}
+
+
+.contacto-info{
+    display: flex;
+    justify-content: space-between;
+    gap:30px;
+    margin:2rem;
+   align-items: center;
+   text-transform: uppercase;
+}
+
+.contacto-info p,a{
+    color:crimson;
+    font-size: 20px;
+}
+
+
+
+
+.contacto-info img{
+    height: 3rem;
+    width: 3rem;
+    filter: invert(41%) sepia(56%) saturate(554%) hue-rotate(134deg) brightness(88%) contrast(97%);
+}
+
+.contacto-img{
+    width: 30%;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contacto-img img{
+    width: 100%;
+    height: 10%;
+    margin-left: 2rem;
+    filter: invert(41%) sepia(56%) saturate(554%) hue-rotate(134deg) brightness(88%) contrast(97%);
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    border-top: #04637d 1px solid;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    color:crimson;
+}
+
+.footer img{
+    width: 4%;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
