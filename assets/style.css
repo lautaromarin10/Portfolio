@@ -8,6 +8,7 @@
     text-decoration: none;
     list-style-type: none;
     font-family: 'Poppins', sans-serif;
+   
 }
 
 body{
@@ -54,17 +55,19 @@ header{
 .navbar-list a{
     color:var(--azulclaro);
     padding:10px;
-    font-size: 120%;
+    font-size: 110%;
     text-transform: uppercase;
     font-weight: 200;
     word-spacing: 4%;
     cursor: pointer;
+    transition: all 500ms ease;
 }
 
 
 .navbar-list a:hover{
-    font-size: 125%;
+    font-size: 112%;
     color:crimson;
+    text-decoration: underline;
 }
 
 /* CABECERA */
@@ -142,16 +145,17 @@ main{
 
 
 .botones a{
-    font-size:20px;
+    font-size:15px;
     font-weight: 700;
     text-transform: uppercase;
     color: #167C80;
+    transition: all 400ms ease;
 
     
 }
 
 .botones a:hover{
-    font-size: 21px;
+    font-size: 16px;
     color:crimson
 }
 
@@ -261,8 +265,22 @@ margin: 2%;
     gap:10%;
     border-radius: 1rem;
     border:#04637d 1px solid;
+    transition: all 400ms ease;
+}
+
+.cards-data:hover{
+    border:crimson 2px solid;
+    animation: scale  infinite  2s;
+    transform:translateY(-2%);
+}
+
+@keyframes scale {
+   
     
 }
+
+
+
 
 .cards-data img{
     height: 30%;
@@ -340,13 +358,12 @@ margin: 2%;
    text-transform: uppercase;
 }
 
+
+
 .contacto-info p,a{
     color:crimson;
     font-size: 20px;
 }
-
-
-
 
 .contacto-info img{
     height: 3rem;
@@ -381,20 +398,6 @@ margin: 2%;
 .footer img{
     width: 4%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* CONTACTO */

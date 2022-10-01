@@ -40,6 +40,7 @@
             gap:25px;
             z-index: 2;
             display: none;
+            
         }
 
         .navbar-list a{
@@ -66,6 +67,7 @@
 
         #menu-toggle:checked + .navbar-list{
             display: flex;
+            
         }
 
         
@@ -117,7 +119,7 @@
     }
 
     .botones a:hover{
-        font-size:60%;
+        font-size:102%;
   
     }
     .hero-img{
@@ -146,7 +148,7 @@
     }
 
     .cards h3{
-        font-size: 280%;
+        font-size: 230%;
     }
 
      /* INFO */
@@ -175,6 +177,10 @@
     }
 
     .contacto-info a{
+        font-size:100%;
+    }
+
+    .contacto-info p{
         font-size:100%;
     }
 
